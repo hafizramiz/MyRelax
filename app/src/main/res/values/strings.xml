@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MyRelax</string>
+    <string name="swimming">Swimming</string>
+    <string name="stretching">Stretching</string>
+    <string name="yoga">Yoga</string>
+    <string name="fitness">Fitness</string>
+    <string name="placerholder_search">Search</string>
+</resources>
