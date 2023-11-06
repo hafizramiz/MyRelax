@@ -54,6 +54,7 @@ class MainActivity : ComponentActivity() {
     }
 }
 
+
 @Composable
 fun MyRelaxApp(windowSize:WindowSizeClass) {
 // Artik burda ekranin buyuklugune gore landscape mi portrait mi gostercem ona karar vercem
