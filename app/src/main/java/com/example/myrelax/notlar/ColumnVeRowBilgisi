@@ -1,0 +1,27 @@
+
+        // Column ve Row'un cross-axis'ni ayarlamak icin ALignment parametresi kullanilir.
+        // Bu columnda horizantalAlignment'dir. Cunku COlumn vertical olusur. Bunun cross-axis'ni ayaralamak
+        // icin alignment propertisi kullanilir. Hangi aligmnent? horizantalAligment. cross-axis'ne uygun gelen
+        // alignment.Row'da ise cross-axis vertical oldugu icin vertical aligmnet kullanilir.
+        // Column'da horizantalAlignment var
+        Column(horizontalAlignment = ) {
+
+        }
+        // Row da ise verticalAlignment var.
+        Row (verticalAlignment = ){
+
+        }
+        // Main axis'lerde nasil yerlesecegini belirlemek icin de arrangment propertisi kullanilir.
+        // Column'un main axis'i vertical oldugu icin verticalArrangement =  kullanilir.
+        Column(verticalArrangement = ) {
+
+        }
+        // Row'a ise mainaxis horizantal oldugu icin  horizontalArrangement kullanilir.
+        // Yani arrangment main axis icin kullanilan paramtre ismidir
+        Row(horizontalArrangement = ) {
+
+        }
+
+
+        SImdi eger main axis'de bir islem yapacaksam arrangemnet cross axis'de bir islem yapacaksam alignment kullaniyorum
+        ornegin column icin main axisde bir degisiklik istersem arrangment.spacedby diyerek aralarinda bosluk atabilrim
