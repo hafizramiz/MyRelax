@@ -76,7 +76,6 @@ fun SearchBar(
         modifier = Modifier
             .fillMaxWidth()
             .heightIn(56.dp),
-
         )
 }
 
@@ -247,6 +246,15 @@ private fun RelaxBottomNavigation(modifier: Modifier = Modifier) {
     }
 }
 
+
+
+/*
+// Scaffold icinde olanlar.
+topBar: @Composable () -> Unit = {},
+    bottomBar: @Composable () -> Unit = {},
+    snackbarHost: @Composable () -> Unit = {},
+    floatingActionButton: @Composable () -> Unit = {},
+*/
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun MyRelaxAppPortrait() {
